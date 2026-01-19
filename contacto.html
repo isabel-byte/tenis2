@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Bunny - Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+   
+   </head>
+<body>
+    <div class="container">
+        <!-- Barra superior -->
+        <div class="top-bar">
+            <div class="logo-nav-container">
+                <div class="logo">Shoes Bunny</div>
+                <div class="nav-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="catalogo.html">Catálogo</a>
+                    <a href="#" class="active">Contacto</a>
+                    <a href="historia.html">Historia</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Sección de búsqueda -->
+        <div class="search-section">
+            <h1 class="search-title">Encuentra tus Tenis</h1>
+            <div class="search-box">
+                <input type="text" placeholder="Buscar productos Bad Bunny...">
+                <button class="search-button">Buscar</button>
+            </div>
+        </div>
+        
+        <!-- Información del clima -->
+        <div class="weather-info">
+            <i class="fas fa-sun" style="color: #A31F49; margin-right: 10px;"></i> 24°C Parcialmente despejado
+        </div>
+        
+        <!-- Sección principal de contacto -->
+        <div class="main-contact-section">
+            <div class="contact-header">
+                <h1 class="contact-title">Contáctanos</h1>
+                <p class="contact-subtitle">¿Tienes preguntas sobre nuestros productos, envíos o colaboraciones? Estamos aquí para ayudarte. Contáctanos a través de cualquiera de los siguientes medios o envíanos un mensaje directo.</p>
+            </div>
+            
+            <div class="separator"></div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Información de Contacto</h2>
+                    
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-details">
+                                <h3>Nuestra ubicación</h3>
+                                <p>Av. Principal 123, San Juan, Republica Dominicana</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-details">
+                                <h3>Teléfono</h3>
+                                <p>+1 (809) 555-0123</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-details">
+                                <h3>Correo electrónico</h3>
+                                <p>info@shoesbunny.com<br>ventas@shoesbunny.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info-details">
+                                <h3>Horario de atención</h3>
+                                <p>Lunes a Viernes: 9:00 AM - 6:00 PM<br>Sábados: 10:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container">
+                        <h3 class="map-title">Nuestra ubicación</h3>
+                        <div class="map-placeholder">
+                            <i class="fas fa-map-marked-alt" style="font-size: 50px; color: #A31F49; margin-bottom: 15px;"></i>
+                            <div style="text-align: center;">
+                                <strong style="color: #402C2B; font-size: 18px;">Shoes Bunny - San Juan</strong><br>
+                                <small style="color: #666;">Republica Dominicana</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-section">
+                        <h3 class="social-title">Síguenos en redes sociales</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Envíanos un mensaje</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre completo *</label>
+                            <input type="text" id="name" name="name" required placeholder="Tu nombre completo">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Correo electrónico *</label>
+                            <input type="email" id="email" name="email" required placeholder="tuemail@ejemplo.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 (xxx) xxx-xxxx">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Asunto *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Selecciona un asunto</option>
+                                <option value="producto">Consulta sobre producto</option>
+                                <option value="tallas">Información de tallas</option>
+                                <option value="envio">Consulta sobre envío</option>
+                                <option value="devolucion">Devolución o cambio</option>
+                                <option value="colaboracion">Colaboración</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensaje *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                        </div>
+                        
+                        <div class="form-group" style="display: flex; align-items: center; gap: 10px;">
+                            <input type="checkbox" id="privacy" name="privacy" required style="width: 20px; height: 20px;">
+                            <label for="privacy" style="margin-bottom: 0; font-weight: normal;">Acepto la política de privacidad *</label>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                        </button>
+                    </form>
+                    
+                    <div style="margin-top: 30px; padding: 20px; background-color: #f0f0f0; border-radius: 10px; border-left: 4px solid #A31F49;">
+                        <h4 style="color: #402C2B; margin-bottom: 10px; font-size: 18px;"><i class="fas fa-info-circle" style="color: #A31F49; margin-right: 8px;"></i> Información importante</h4>
+                        <p style="color: #666; font-size: 15px; line-height: 1.6;">Normalmente respondemos en menos de 24 horas hábiles. Para consultas urgentes, te recomendamos llamarnos por teléfono durante nuestro horario de atención.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="footer-content">
+                <p style="font-size: 16px; font-weight: 600; color: #402C2B; margin-bottom: 10px;">&copy; 2023 Shoes Bunny. Todos los derechos reservados.</p>
+                <p style="color: #666; font-size: 15px;">Colección inspirada en Bad Bunny</p>
+                <p style="margin-top: 15px; color: #A31F49; font-size: 14px; font-weight: 500;">Contacto: info@shoesbunny.com | Tel: +1 (787) 555-0123</p>
+            </div>
+        </footer>
+    </div>
+   
+   <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #ffffff;
+            color: #333333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Barra superior estilo imagen */
+        .top-bar {
+            background-color: #402C2B;
+            padding: 20px 0;
+            margin-bottom: 30px;
+            border-radius: 0 0 15px 15px;
+            box-shadow: 0 4px 12px rgba(64, 44, 43, 0.2);
+        }
+        
+        .logo-nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 38px;
+            font-weight: bold;
+            color: white;
+            letter-spacing: 1px;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 40px;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 17px;
+            transition: all 0.3s;
+            position: relative;
+            padding: 5px 0;
+        }
+        
+        .nav-links a:hover {
+            color: #f0f0f0;
+        }
+        
+        .nav-links a.active {
+            color: #ffffff;
+            font-weight: 700;
+        }
+        
+        .nav-links a.active:after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: #A31F49;
+            border-radius: 2px;
+        }
+        
+        /* Sección de búsqueda */
+        .search-section {
+            text-align: center;
+            margin: 40px 0 50px;
+            padding: 30px;
+            background-color: #f9f9f9;
+            border-radius: 15px;
+            border: 2px solid #e0e0e0;
+        }
+        
+        .search-title {
+            font-size: 36px;
+            color: #402C2B;
+            margin-bottom: 25px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+        
+        .search-box {
+            max-width: 700px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 22px 30px;
+            font-size: 18px;
+            border: 2px solid #402C2B;
+            border-radius: 50px;
+            background-color: #ffffff;
+            color: #333333;
+            outline: none;
+            transition: all 0.3s;
+            font-style: italic;
+        }
+        
+        .search-box input:focus {
+            border-color: #A31F49;
+            box-shadow: 0 0 0 4px rgba(163, 31, 73, 0.15);
+        }
+        
+        .search-button {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #A31F49;
+            color: white;
+            border: none;
+            padding: 18px 35px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .search-button:hover {
+            background-color: #8a1b40;
+            transform: translateY(-50%) scale(1.03);
+        }
+        
+        /* Sección principal de contacto */
+        .main-contact-section {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            margin-bottom: 50px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+            border: 1px solid #e8e8e8;
+        }
+        
+        .contact-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .contact-title {
+            font-size: 42px;
+            color: #402C2B;
+            font-weight: 800;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+        
+        .contact-subtitle {
+            font-size: 18px;
+            color: #666666;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+        
+        /* Contenido de contacto */
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin-top: 30px;
+        }
+        
+        @media (max-width: 900px) {
+            .contact-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .logo-nav-container {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .nav-links {
+                gap: 25px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+        
+        /* Información de contacto */
+        .contact-info h2 {
+            color: #402C2B;
+            font-size: 28px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #A31F49;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        
+        .info-card {
+            display: flex;
+            align-items: flex-start;
+            padding: 25px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            border-left: 5px solid #A31F49;
+            transition: all 0.3s;
+        }
+        
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(163, 31, 73, 0.1);
+            background-color: #ffffff;
+        }
+        
+        .info-icon {
+            background-color: #A31F49;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            flex-shrink: 0;
+            font-size: 24px;
+        }
+        
+        .info-details h3 {
+            color: #402C2B;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        
+        .info-details p {
+            color: #666666;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        
+        /* Mapa */
+        .map-container {
+            margin-top: 30px;
+        }
+        
+        .map-title {
+            color: #402C2B;
+            font-size: 22px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .map-placeholder {
+            height: 250px;
+            background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
+            border-radius: 10px;
+            border: 2px solid #402C2B;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        /* Formulario de contacto */
+        .contact-form h2 {
+            color: #402C2B;
+            font-size: 28px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #A31F49;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 10px;
+            color: #402C2B;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: 18px;
+            background-color: #f9f9f9;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            color: #333333;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        
+        .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+            outline: none;
+            border-color: #A31F49;
+            background-color: #ffffff;
+            box-shadow: 0 0 0 4px rgba(163, 31, 73, 0.1);
+        }
+        
+        .submit-button {
+            background-color: #A31F49;
+            color: white;
+            border: none;
+            padding: 20px 50px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            width: 100%;
+        }
+        
+        .submit-button:hover {
+            background-color: #8a1b40;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 16px rgba(163, 31, 73, 0.3);
+        }
+        
+        /* Clima */
+        .weather-info {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            border: 2px solid #e0e0e0;
+            max-width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #402C2B;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 60px;
+            border-top: 3px solid #402C2B;
+            color: #666666;
+            font-size: 15px;
+            background-color: #f9f9f9;
+            border-radius: 15px 15px 0 0;
+        }
+        
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        /* Responsive */
+        @media (max-width: 600px) {
+            .contact-title {
+                font-size: 32px;
+            }
+            
+            .search-title {
+                font-size: 28px;
+            }
+            
+            .nav-links {
+                gap: 15px;
+            }
+            
+            .nav-links a {
+                font-size: 15px;
+            }
+        }
+        
+        /* Separador */
+        .separator {
+            height: 3px;
+            background-color: #e0e0e0;
+            margin: 40px 0;
+            border-radius: 2px;
+        }
+        
+        /* Redes sociales */
+        .social-section {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #e0e0e0;
+        }
+        
+        .social-title {
+            color: #402C2B;
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        .social-icons {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .social-icon {
+            width: 50px;
+            height: 50px;
+            background-color: #402C2B;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 22px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .social-icon:hover {
+            background-color: #A31F49;
+            transform: translateY(-5px);
+        }
+    </style>
+
+
+    
+</body>
+</html>
